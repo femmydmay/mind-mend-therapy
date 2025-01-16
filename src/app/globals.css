@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --sidebar-background: 210 64% 14%; /* #083344 converted to HSL */
+    --sidebar-foreground: 0 0% 100%; /* White for text */
+    --sidebar-primary: 210 64% 10%; /* Slightly darker shade of background */
+    --sidebar-primary-foreground: 0 0% 100%; /* White for primary text */
+    --sidebar-accent: 30 100% 65%; /* Warm orange for contrast */
+    --sidebar-accent-foreground: 0 0% 100%; /* White for text on accents */
+    --sidebar-border: 210 50% 25%; /* Slightly lighter version of the background */
+    --sidebar-ring: 30 100% 65%; /* Matches accent */
+  }
+
+  .dark {
+    --sidebar-background: 210 64% 10%; /* Darker version of #083344 */
+    --sidebar-foreground: 0 0% 100%; /* White for text */
+    --sidebar-primary: 210 64% 14%; /* Original background */
+    --sidebar-primary-foreground: 0 0% 100%; /* White for primary text */
+    --sidebar-accent: 30 100% 65%; /* Warm orange remains consistent */
+    --sidebar-accent-foreground: 0 0% 100%; /* White for text on accents */
+    --sidebar-border: 210 50% 20%; /* Subtle border for dark mode */
+    --sidebar-ring: 30 100% 65%; /* Matches accent */
+  }
+}
+
+
+  
+
