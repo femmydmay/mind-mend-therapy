@@ -1,11 +1,11 @@
 import React from "react";
 import { CheckCircle, XCircle } from "lucide-react";
 import { Testimonial } from "./testimonial";
-import Wave2 from "./Wave2";
+// import Wave2 from "./Wave2";
 
 const ServiceComparison = () => {
   return (
-    <div className="bg-cyan-900 relative ">
+    <div className="bg-cyan-900 relative -mt-40 mb-10 ">
       <div
         id="service-comparison-table"
         className=" text-white p-8 rounded-lg "
@@ -137,7 +137,7 @@ const ServiceComparison = () => {
         </div>
           </div>
           <Testimonial />
-          <Wave2/> 
+          {/* <Wave2/>  */}
     </div>
   );
 };

@@ -54,7 +54,7 @@ export function FAQ() {
 
   return (
     <section className="min-h-screen relative py-20 sm:py-32">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl bg-slate-300 dark:bg-slate-800 py-12 dark:bg-slate-900mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12" data-aos="fade-up">
           <h2 className="text-base text-primary font-semibold tracking-wide uppercase dark:text-slate-50">
             FAQ

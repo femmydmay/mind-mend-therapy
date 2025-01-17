@@ -5,6 +5,8 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { DialogTitle } from "@radix-ui/react-dialog"; // Import DialogTitle
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden"; // Import VisuallyHidden
 import { Logo } from "./logo";
 
 export default function Navbar() {
@@ -20,10 +22,10 @@ export default function Navbar() {
   }, []);
 
   const menuItems = [
-    { name: "Business", href: "/business" },
+    { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "FAQ", href: "/faq" },
-    { name: "Reviews", href: "/reviews" },
+    { name: "Reviews", href: "/testimonial" },
     { name: "Contact", href: "/contact" },
   ];
 
@@ -38,7 +40,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">
-              <Logo width={80} />
+              <Logo width={100} />
             </Link>
           </div>
 
@@ -49,14 +51,22 @@ export default function Navbar() {
                 key={item.name}
                 href={item.href}
                 className={`${
-                  isScrolled ? "text-primary" : "text-white"
+                  isScrolled ? "text-primary" : "text-black"
                 } hover:text-primary/90 hover:underline transition-colors`}
               >
                 {item.name}
               </Link>
             ))}
             <Link href="/login">
-              <Button variant="outline" size="sm" className={`${isScrolled ?"text-primary-dark border-primary-dark":"text-white"}`}>
+              <Button
+                variant="outline"
+                size="sm"
+                className={`${
+                  isScrolled
+                    ? "text-primary-dark border-primary-dark"
+                    : "text-white"
+                }`}
+              >
                 Login
               </Button>
             </Link>
@@ -133,6 +143,11 @@ export default function Navbar() {
                     </Link>
                   </div>
                 </nav>
+
+                {/* Add DialogTitle for Accessibility */}
+                <VisuallyHidden>
+                  <DialogTitle>Main Navigation</DialogTitle>
+                </VisuallyHidden>
               </SheetContent>
             </Sheet>
           </div>

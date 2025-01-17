@@ -83,7 +83,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services"
+                  href="/about"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Our Services
@@ -91,7 +91,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/therapists"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Find a Therapist
@@ -126,7 +126,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/privacy"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Privacy Policy
@@ -134,7 +134,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/terms"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Terms of Service
@@ -142,7 +142,7 @@ export function Footer() {
               </li>
               <li>
                 <Link
-                  href="/accessibility"
+                  href="/"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
                   Accessibility
@@ -188,7 +188,7 @@ export function Footer() {
           transition={{ duration: 0.6, delay: 0.8 }}
         >
           <p>
-            &copy; {new Date().getFullYear()} mind-mind. All rights reserved.
+            &copy; {new Date().getFullYear()} mind-mend. All rights reserved.
           </p>
         </motion.div>
       </div>

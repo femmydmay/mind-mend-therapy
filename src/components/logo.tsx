@@ -34,7 +34,7 @@ export const Logo: React.FC<LogoProps> = ({ width = 200, height = 100, textColor
         cx="60"
         cy="40"
         r="20"
-        fill="#0A9EE5"
+        fill="#00D4D4"
         fillOpacity="0.7"
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -63,7 +63,7 @@ export const Logo: React.FC<LogoProps> = ({ width = 200, height = 100, textColor
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
       >
-        mind-mind
+        mind-mend
       </motion.text>
     </motion.svg>
   );
