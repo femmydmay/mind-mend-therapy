@@ -27,7 +27,7 @@ export default function ContactPage() {
         </div>
         <Card>
           <CardHeader>
-            <CardTitle>Get in Touch</CardTitle>
+            <CardTitle>Get in Touch with Mind-Mend</CardTitle>
             <CardDescription>Fill out the form below and we will get back to you as soon as possible.</CardDescription>
           </CardHeader>
           <CardContent>

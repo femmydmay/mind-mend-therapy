@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div className="text-center mb-12">
           <Logo width={150} height={75} />
           <h1 className="mt-6 text-3xl font-extrabold text-gray-900">
-            About mind-mind
+            About mind-mend
           </h1>
         </div>
         <div className="bg-white shadow overflow-hidden sm:rounded-lg">
