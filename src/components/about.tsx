@@ -28,12 +28,12 @@ export function About() {
             relationship challenges, and more. Individual Therapy Our
             personalized therapy sessions focus on your specific challenges,
             fostering personal growth and emotional healing. Through one-on-one
-            support and expert guidance, we help you navigate life's
-            complexities with clarity and resilience.
+            support and expert guidance, we help you navigate complexities of
+            life with clarity and resilience.
           </p>
 
           <h2 className=" text-primary mt-4 text-2xl font-semibold tracking-wide uppercase dark:text-slate-50">
-            OUR SERVICES 
+            OUR SERVICES
           </h2>
         </div>
 
