@@ -1,9 +1,15 @@
 "use client";
 
+import { useEffect } from "react";
 import { Globe, CreditCard, UserCheck, Lock } from "lucide-react"; // Using better icons from Lucide for visual clarity
 import "aos/dist/aos.css";
+import AOS from "aos";
 
-export function About() {
+export function AboutMind() {
+    useEffect(() => {
+      AOS.init({ duration: 1000 });
+    }, []);
+
   return (
     <section className="py-16 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -14,7 +20,7 @@ export function About() {
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
             Empowering Your Mental Health Journey
           </p>
-          <p className="mt-4 max-w-2xl text-xl items-center justify-center text-gray-500 dark:text-gray-400 lg:mx-auto">
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 lg:mx-auto text-justify">
             At Mind-Mend, we believe that everyone deserves access to quality
             mental health care. Our platform connects you with licensed
             therapists and provides tools to support your well-being.
@@ -25,11 +31,13 @@ export function About() {
             individual therapy, family therapy, couples therapy, and group
             therapy. These services address a wide array of mental health
             concerns, including anxiety, depression, stress management,
-            relationship challenges, and more. Individual Therapy Our
-            personalized therapy sessions focus on your specific challenges,
-            fostering personal growth and emotional healing. Through one-on-one
-            support and expert guidance, we help you navigate complexities of
-            life with clarity and resilience.
+            relationship challenges, and more.
+            <br />
+            <strong>Individual Therapy:</strong> Our personalized therapy
+            sessions focus on your specific challenges, fostering personal
+            growth and emotional healing. Through one-on-one support and expert
+            guidance, we help you navigate complexities of life with clarity and
+            resilience.
           </p>
 
           <h2 className=" text-primary mt-4 text-2xl font-semibold tracking-wide uppercase dark:text-slate-50">

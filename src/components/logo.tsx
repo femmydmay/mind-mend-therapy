@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 interface LogoProps {
   width?: number;
   height?: number;
@@ -10,7 +11,7 @@ interface LogoProps {
   textColor?: string;
 }
 
-export const Logo: React.FC<LogoProps> = ({ width = 200, height = 100, textColor="white" }) => {
+export const Logo: React.FC<LogoProps> = ({ width = 200, height = 100, textColor="blue" }) => {
   return (
     <motion.svg
       initial={{ opacity: 0, scale: 0 }}
@@ -24,7 +25,7 @@ export const Logo: React.FC<LogoProps> = ({ width = 200, height = 100, textColor
       aria-labelledby="logoTitle logoDesc"
       role="img"
     >
-      <title id="logoTitle">mind-mind logo</title>
+      <title id="logoTitle">mind-mend logo</title>
       <desc id="logoDesc">
         Two interconnected circles representing minds with the text mind-mind
         below

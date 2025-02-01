@@ -12,7 +12,7 @@ const ServiceComparison = () => {
       >
         <h2 className="text-center text-3xl font-bold mb-8">
           <span className="text-cyan-500">Mind</span>-Mend Virtual Therapy
-          Advantages Over Traditional In-Office Therapy
+          Traditional and In-Office Therapy Services.
         </h2>
         <div className="overflow-x-auto max-w-screen-xl mx-auto rounded-md">
           <table className="w-full border-collapse  border-gray-700 text-left">
@@ -66,7 +66,8 @@ const ServiceComparison = () => {
                   <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
                 <td className="text-center py-4 px-6">
-                  <XCircle className="inline-block h-6 w-6 text-red-400" />
+                  {/* <XCircle className="inline-block h-6 w-6 text-red-400" /> */}
+                  <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
               </tr>
               <tr className="even:bg-gray-800/10">
@@ -87,7 +88,8 @@ const ServiceComparison = () => {
                   <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
                 <td className="text-center py-4 px-6">
-                  <XCircle className="inline-block h-6 w-6 text-red-400" />
+                  {/* <XCircle className="inline-block h-6 w-6 text-red-400" /> */}
+                  <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
               </tr>
               <tr className="even:bg-gray-800/10">
@@ -108,7 +110,8 @@ const ServiceComparison = () => {
                   <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
                 <td className="text-center py-4 px-6">
-                  <XCircle className="inline-block h-6 w-6 text-red-400" />
+                  {/* <XCircle className="inline-block h-6 w-6 text-red-400" /> */}
+                  <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
               </tr>
               <tr className="even:bg-gray-800/10">
@@ -129,7 +132,8 @@ const ServiceComparison = () => {
                   <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
                 <td className="text-center py-4 px-6">
-                  <XCircle className="inline-block h-6 w-6 text-red-400" />
+                  {/* <XCircle className="inline-block h-6 w-6 text-red-400" /> */}
+                  <CheckCircle className="inline-block h-6 w-6 text-green-400" />
                 </td>
               </tr>
             </tbody>
