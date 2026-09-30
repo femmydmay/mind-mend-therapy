@@ -1,0 +1,54 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --sidebar-background: 210 64% 14%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 210 64% 10%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 100% 65%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 50% 25%;
+    --sidebar-ring: 30 100% 65%;
+  }
+
+  .dark {
+    --sidebar-background: 210 64% 10%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 210 64% 14%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 30 100% 65%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 50% 20%;
+    --sidebar-ring: 30 100% 65%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-inter), sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+}
+
